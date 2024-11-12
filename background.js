@@ -16,6 +16,7 @@ chrome.runtime.onInstalled.addListener(() => {
           excludedRequestDomains: [
             "teams.microsoft.com",
             "login.microsoftonline.com",
+            "outlook.office365.com"           
             "outlook.office.com",
           ],
         },
